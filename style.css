@@ -5,6 +5,7 @@
     --cmp-c-Body: #787887;
     --cmp-c-TextHover: #F47B56;
     --cmp-c-Line: #E8E8EA;
+    --cmp-c-Blank: white;
 
     --cmp-g-1: linear-gradient(180deg, #B068E9, #6463E7);
 
@@ -31,4 +32,38 @@ body {
 }
 * :last-child {
     margin-bottom: 0;
+}
+
+/* Typography */
+
+html {
+    font-size: 12px;
+}
+
+.cmp 
+{
+    font-family: "Kumbh Sans", sans-serif;
+    line-height: 1.5;
+    color: var(--cmp-c-Body);
+    background-color: var(--cmp-c-Blank);
+}
+
+.cmp h1 
+{
+    font-size: 2.66rem;
+}
+
+.cmp h3 
+{
+    font-size:1.083rem;
+}
+
+.cmp h1, .cmp h3 
+{
+    color: var(--cmp-c-Headings);
+}
+
+.cmp__item.selected .cmp__body 
+{
+    color: var(--cmp-c-TextHover);
 }
