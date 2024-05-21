@@ -1,0 +1,33 @@
+:root 
+{
+    --cmp-c-Headings: #1E1F36;
+    --cmp-c-Question: #4B4C5F;
+    --cmp-c-Body: #787887;
+    --cmp-c-TextHover: #F47B56;
+    --cmp-c-Line: #E8E8EA;
+
+    --cmp-g-1: linear-gradient(180deg, #B068E9, #6463E7);
+
+    --cmp-f-1: "Kumbh Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    background: var(--cmp-g-1);
+    padding: 3.33em 6.4%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+* :first-child {
+    margin-top: 0;
+}
+* :last-child {
+    margin-bottom: 0;
+}
