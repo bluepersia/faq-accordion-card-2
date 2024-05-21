@@ -67,3 +67,11 @@ html {
 {
     color: var(--cmp-c-TextHover);
 }
+
+@media (min-width:768px)
+{
+    .cmp h3 {
+        font-size: 1.16rem;
+    }
+}
+
