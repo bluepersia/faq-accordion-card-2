@@ -157,6 +157,7 @@ html {
 .cmp__answer {
     display: none;
     margin-bottom: 1em;
+    max-width: 278px;
 }
 
 .cmp__item.selected .cmp__answer {
@@ -196,7 +197,9 @@ html {
         text-align: left;
     }
 
-   
+   .cmp__answer {
+    max-width: 319px;
+   }
 
    
 }
