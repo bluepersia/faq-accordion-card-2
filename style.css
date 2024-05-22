@@ -83,7 +83,7 @@ html {
     color: var(--cmp-c-TextHover);
 }
 
-@media (min-width:768px)
+@media (min-width:1000px)
 {
     .cmp h3 {
         font-size: 1.16rem;
@@ -138,20 +138,18 @@ html {
 
 .cmp__question {
     position: relative;
-    padding-right: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cmp__img-arrow {
+    margin-left: 2em;
+    margin-right: 0;
+    display: block;
 }
 
-.cmp__question::after 
-{
-    content: '';
-    background-image: url(./images/icon-arrow-down.svg);
-    background-size: cover;
-    width: 8px;
-    height: 4px;
-    position: absolute;
-    top:50%;
-    transform: translateY(-50%);
-    right: 0px;
+.cmp__item.selected .cmp__img-arrow {
+    transform: rotate(180deg);
 }
 
 .cmp__answer {
@@ -165,7 +163,9 @@ html {
 }
 
 
-@media (min-width:768px)
+
+
+@media (min-width:1000px)
 {
     .cmp {
         display: flex;
