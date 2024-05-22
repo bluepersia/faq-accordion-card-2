@@ -110,6 +110,7 @@ html {
     top: 0px;
     left: 50%;
     transform: translate(-50%, -40%);
+    max-width: 237px;
 }
 
 .cmp__img, .cmp__img-pattern {
@@ -155,6 +156,7 @@ html {
 
 .cmp__answer {
     display: none;
+    margin-bottom: 1em;
 }
 
 .cmp__item.selected .cmp__answer {
@@ -196,7 +198,5 @@ html {
 
    
 
-    .cmp__answer {
-        margin-bottom: 1em;
-    }
+   
 }
