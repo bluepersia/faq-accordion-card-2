@@ -75,6 +75,14 @@ html {
     color: var(--cmp-c-TextHover);
 }
 
+.cmp__question {
+    transition: color 300ms;
+}
+
+.cmp__item:hover .cmp__question {
+    color: var(--cmp-c-TextHover);
+}
+
 @media (min-width:768px)
 {
     .cmp h3 {
@@ -184,5 +192,11 @@ html {
 
     .cmp__title {
         text-align: left;
+    }
+
+   
+
+    .cmp__answer {
+        margin-bottom: 1em;
     }
 }
